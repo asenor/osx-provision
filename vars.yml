@@ -1,0 +1,49 @@
+homebrew_taps:
+  - homebrew/core
+  - homebrew/php
+  - caskroom/cask
+
+homebrew_packages:
+  - composer
+  - ffmpeg
+  - git
+  - mas
+  - nvm
+  - php71
+  - phpunit
+  - yarn
+
+homebrew_cask_apps:
+  - 1password
+  - atom
+  - dropbox
+  - firefox
+  - flux
+  # ForkLift 2
+  - https://raw.githubusercontent.com/caskroom/homebrew-cask/0bc4d90f01add4fe5efaccc7ece9bcb34b393751/Casks/forklift.rb
+  - google-chrome
+  - handbrake
+  - imageoptim
+  - keepingyouawake
+  - openemu
+  - raindropio
+  - sequel-pro
+  - simplenote
+  - slack
+  - spotify
+  - teamviewer
+  - transmission
+  - vagrant
+  - virtualbox
+  - vlc
+  - zeplin
+
+composer_packages:
+  - hirak/prestissimo
+
+mas_apps:
+  - 411643860  # DaisyDisk
+  - 975937182  # Fantastical 2
+  - 407963104  # Pixelmator
+  - 1176895641 # Spark
+  - 510232205  # The Archive Browser
