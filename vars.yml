@@ -14,6 +14,7 @@ homebrew_packages:
   - php71
   - phpunit
   - yarn
+  - youtube-dl
   - zsh
 
 homebrew_cask_apps:
