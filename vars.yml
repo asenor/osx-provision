@@ -4,6 +4,7 @@ homebrew_taps:
   - caskroom/cask
 
 homebrew_packages:
+  - ansible
   - composer
   - ffmpeg
   - git
