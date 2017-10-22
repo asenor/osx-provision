@@ -11,4 +11,4 @@
   4. Clone this repository:
     `git clone git@github.com:asenor/osx-provision.git`
   5. Run:
-    `ansible-playbook playbook.yml -i "localhost,"`
+    `ansible-playbook playbook.yml -i "localhost," -K`

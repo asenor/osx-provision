@@ -8,10 +8,12 @@ homebrew_packages:
   - ffmpeg
   - git
   - mas
+  - nano
   - nvm
   - php71
   - phpunit
   - yarn
+  - zsh
 
 homebrew_cask_apps:
   - 1password
