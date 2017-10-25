@@ -23,8 +23,6 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - flux
-  # ForkLift 2
-  - https://raw.githubusercontent.com/caskroom/homebrew-cask/0bc4d90f01add4fe5efaccc7ece9bcb34b393751/Casks/forklift.rb
   - google-chrome
   - handbrake
   - imageoptim
