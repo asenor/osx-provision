@@ -5,6 +5,7 @@ homebrew_taps:
 
 homebrew_packages:
   - ansible
+  - bash
   - composer
   - ffmpeg
   - git

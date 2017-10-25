@@ -1,18 +1,12 @@
 ---
-- name: Add zsh to /etc/shells
+- name: Add last version of bash to /etc/shells
   become: true
   lineinfile:
     path: /etc/shells
-    line: /usr/local/bin/zsh
+    line: /usr/local/bin/bash
 
-- name: Set zsh as shell
+- name: Set last version of bash as shell
   become: true
   user:
     name: '{{ ansible_env.USER }}'
-    shell: /usr/local/bin/zsh
-
-- name: Install prezto
-  git:
-    repo: https://github.com/sorin-ionescu/prezto
-    dest: ~/.zprezto
-    track_submodules: yes
+    shell: /usr/local/bin/bash
