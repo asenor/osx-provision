@@ -1,0 +1,5 @@
+---
+- name: Download theme
+  get_url:
+    url: '{{ theme_url }}'
+    dest: /tmp
