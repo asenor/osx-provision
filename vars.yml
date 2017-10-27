@@ -26,6 +26,7 @@ homebrew_cask_apps:
   - google-chrome
   - handbrake
   - imageoptim
+  - iterm2
   - keepingyouawake
   - openemu
   - raindropio
