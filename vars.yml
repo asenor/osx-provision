@@ -52,6 +52,18 @@ mas_apps:
   - 1176895641 # Spark
   - 510232205  # The Archive Browser
 
+# Dotfiles
+dotfiles_repo: git@github.com:asenor/dotfiles.git
+dotfiles_dest: ~/.dotfiles
+dotfiles_files:
+  - .ssh/config
+  - .bashrc
+  - .exports
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .zpreztorc
+  - .zshrc
 
 # Terminal
 shell: zsh
