@@ -1,6 +1,0 @@
----
-- name: Setup shell
-  import_tasks: shell.yml
-
-- name: Setup theme
-  import_tasks: theme.yml
