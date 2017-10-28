@@ -65,5 +65,11 @@ dotfiles_files:
   - .zpreztorc
   - .zshrc
 
+# Preferences
+preferences_repo: git@github.com:asenor/preferences.git
+preferences_dest: ~/.preferences
+preferences_files:
+  - com.googlecode.iterm2.plist
+
 # Terminal
 shell: zsh

@@ -6,4 +6,5 @@
   roles:
     - applications
     - dotfiles
+    - preferences
     - shell
