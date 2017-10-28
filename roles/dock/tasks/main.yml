@@ -1,0 +1,16 @@
+---
+- name: Add non found apps
+  shell: 'dockutil --find "{{ item.name }}" || dockutil --add "/Applications/{{ item.name }}.app" --position {{ item.pos }} --section apps'
+  with_items: '{{ dock_apps }}'
+
+- name: Ensure apps order
+  command: 'dockutil --move "/Applications/{{ item.name }}.app" --position {{ item.pos }} --section apps'
+  with_items: '{{ dock_apps }}'
+
+- name: Add non found folders
+  shell: 'dockutil --find "{{ item.name }}" || dockutil --add "{{ item.path }}" --label "{{ item.name }}" --view list --display folder --sort name --position {{ item.pos }} --section others'
+  with_items: '{{ dock_folders }}'
+
+- name: Ensure folders order
+  command: 'dockutil --move "{{ item.name }}" --view list --display folder --sort name --position {{ item.pos }} --section others'
+  with_items: '{{ dock_folders }}'
