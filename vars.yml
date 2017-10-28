@@ -20,6 +20,7 @@ homebrew_packages:
 homebrew_cask_apps:
   - 1password
   - atom
+  - calibre
   - dropbox
   - firefox
   - flux
