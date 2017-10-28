@@ -1,5 +1,5 @@
 ---
-- name: Install/update prezto
+- name: Install/update Prezto
   git:
     repo: https://github.com/sorin-ionescu/prezto
     dest: ~/.zprezto

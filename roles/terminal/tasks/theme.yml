@@ -1,18 +1,10 @@
 ---
 - name: Download theme
   get_url:
-    url: '{{ theme_url }}'
+    url: https://raw.githubusercontent.com/sindresorhus/iterm2-snazzy/master/Snazzy.itermcolors
     dest: /tmp
-
-- name: Get theme filename
-  set_fact:
-    theme_filename: '{{ theme_url.split("/")[-1] }}'
-
-- name: Get theme name
-  set_fact:
-    theme_name: '{{ theme_filename.split(".")[0] }}'
 
 - name: Remove theme
   file:
-    path: '/tmp/{{ theme_filename }}'
+    path: /tmp/Snazzy.itermcolors
     state: absent
