@@ -28,8 +28,7 @@
 
 - name: Install Atom packages
   command: 'apm install {{ item }}'
-  with_items: '{{ atom_packages }}'
-  when: atom in homebrew_cask_apps
+  with_items: '{{ atom_packages }}'
 
 - name: Install composer global packages
   composer:
