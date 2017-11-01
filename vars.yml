@@ -53,19 +53,6 @@ mas_apps:
   - 1176895641 # Spark
   - 510232205  # The Archive Browser
 
-# Dock
-dock_apps:
-  - { name: Messages, pos: 1 }
-  - { name: Spark, pos: 2 }
-  - { name: Google Chrome, pos: 3 }
-  - { name: iTerm, pos: 4 }
-  - { name: Atom, pos: 5 }
-  - { name: Spotify, pos: 6 }
-dock_folders:
-  - { name: '{{ ansible_env.USER }}', path: ~, pos: 1 }
-  - { name: Downloads, path: ~/Downloads, pos: 2 }
-  - { name: Repositories, path: ~/Repositories, pos: 3 }
-
 # Dotfiles
 dotfiles_repo: git@github.com:asenor/dotfiles.git
 dotfiles_dest: ~/.dotfiles
@@ -85,5 +72,5 @@ preferences_dest: ~/.preferences
 preferences_files:
   - com.googlecode.iterm2.plist
 
-# Terminal
+# Shell
 shell: zsh

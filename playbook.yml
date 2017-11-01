@@ -5,7 +5,6 @@
     - vars.yml
   roles:
     - applications
-    - dock
     - dotfiles
     - preferences
     - shell
