@@ -44,6 +44,7 @@ homebrew_cask_apps:
   - zeplin
 
 atom_packages:
+  - auto-detect-indentation
   - busy-signal
   - editorconfig
   - file-icons
