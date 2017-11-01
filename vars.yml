@@ -43,6 +43,13 @@ homebrew_cask_apps:
   - vlc
   - zeplin
 
+atom_packages:
+  - busy-signal
+  - editorconfig
+  - file-icons
+  - highlight-selected
+  - php-twig
+
 composer_packages:
   - hirak/prestissimo
 

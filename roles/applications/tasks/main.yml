@@ -26,6 +26,11 @@
 - name: Cleanup Homebrew cask applications
   command: brew cask cleanup
 
+- name: Install Atom packages
+  command: 'apm install {{ item }}'
+  with_items: '{{ atom_packages }}'
+  when: atom in homebrew_cask_apps
+
 - name: Install composer global packages
   composer:
     command: require
