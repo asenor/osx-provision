@@ -51,6 +51,9 @@ atom_packages:
   - highlight-selected
   - php-twig
 
+vagrant_plugins:
+  - vagrant-hostmanager
+
 composer_packages:
   - hirak/prestissimo
 

@@ -30,6 +30,10 @@
   command: 'apm install {{ item }}'
   with_items: '{{ atom_packages }}'
 
+- name: Install Vagrant plugins
+  command: 'vagrant plugin install {{ item }}'
+  with_items: '{{ vagrant_plugins }}'
+
 - name: Install composer global packages
   composer:
     command: require
