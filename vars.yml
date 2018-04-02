@@ -1,7 +1,6 @@
 # Applications
 homebrew_taps:
   - homebrew/core
-  - homebrew/php
   - caskroom/cask
 
 homebrew_packages:
@@ -13,7 +12,7 @@ homebrew_packages:
   - mas
   - nano
   - nvm
-  - php71
+  - php
   - phpunit
   - yarn
   - youtube-dl
